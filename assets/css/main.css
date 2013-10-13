@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'red_ring';
+    src: url("../font/redring-bold-webfont.eot");
+    src: url("../font/redring-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/redring-bold-webfont.woff") format("woff"), url("../font/redring-bold-webfont.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'red_ring';
+    src: url("../font/redring-regular-webfont.eot");
+    src: url("../font/redring-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/redring-regular-webfont.woff") format("woff"), url("../font/redring-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'red_ring';
+    src: url("../font/redring-medium-webfont.eot");
+    src: url("../font/redring-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../font/redring-medium-webfont.woff") format("woff"), url("../font/redring-medium-webfont.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'red_ring';
+    src: url("../font/redring-light-webfont.eot");
+    src: url("../font/redring-light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/redring-light-webfont.woff") format("woff"), url("../font/redring-light-webfont.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_pro_bold';
+    src: url('../font/myriad-pro-bold.eot');
+    src: url('../font/myriad-pro-bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/myriad-pro-bold.woff') format('woff'),
+    url('../font/myriad-pro-bold.ttf') format('truetype'),
+    url('../font/myriad-pro-bold.svg#myriad_probold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_pro';
+    src: url("../font/MyriadPro-Regular.eot");
+    src: url("../font/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../font/MyriadPro-Regular.woff") format("woff"), url("../font/MyriadPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    border-bottom: 8px solid #f47d67;
+    margin-bottom: 20px;
+    background-color: #008594;
+    border-top: 8px solid #008594;
+}
+
+h1 {
+    font-family: 'red_ring';
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+header .text {
+    font-size: 27px;
+    font-family: 'myriad_pro_bold';
+    font-weight: 800;
+    color: #ffffff;
+    max-width: 690px;
+    padding: 0 15px 0 15px;
+}
+
+header .r1 {
+    padding-right: 30px;
+}
+
+header .r1, header .r2 {
+    font-size: 147px;
+    font-family: 'red_ring';
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 100px;
+    width: 70px;
+    text-align: center;
+}
+
+header table {
+    max-width: 850px;
+    display: block;
+    margin: 40px auto;
+}
+
+h2 {
+    font-family: 'red_ring';
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #f47d67;
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.container table {
+    margin-left: 15px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+strong {
+    color: #008594;
+}
+
+a:link, a:visited {
+    color: #008594;
+    text-decoration: underline;
+}
+
+a:active, a:hover {
+    text-decoration: none;
+}
+
+table {
+    margin-top: 20px;
+    border: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+td p {
+    font-family: 'myriad_pro';
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    display: block;
+    max-width: 630px;
+}
+
+td p strong {
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.circle {
+    width: 50px;
+}
+
+.circle>div {
+    text-align: center;
+    margin: 0 auto;
+    width: 26px;
+    height: 26px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    color: #ffffff;
+    background-color: #008594;
+    font-size: 16px;
+    font-family: 'myriad_pro';
+    font-weight: 800;
+    padding-top: 3px;
+    text-align: center;
+}
+
+footer {
+    border-bottom: 10px solid #f47d67;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    header .text {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .container table {
+        margin-left: 0;
+    }
+}
